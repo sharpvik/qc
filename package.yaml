@@ -1,0 +1,20 @@
+author: "Viktor A. Rozenko Voitenko"
+copyright: "2021 Viktor A. Rozenko Voitenko"
+dependencies:
+  - "base >= 4.7 && < 5"
+description: "Please see the README on GitHub at <https://github.com/sharpvik/qc#readme>"
+executables:
+  qc:
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+    main: Main.hs
+    source-dirs: src
+extra-source-files:
+  - README.md
+github: sharpvik/qc
+license: BSD3
+maintainer: sharpvik@gmail.com
+name: qc
+version: 0.1.0.0
